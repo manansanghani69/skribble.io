@@ -1,16 +1,69 @@
-# skribble_io
+Here's a description for your GitHub repository:
 
-A new Flutter project.
+---
 
-## Getting Started
+# 🎨 Skribbl Clone - Flutter Mobile App
 
-This project is a starting point for a Flutter application.
+This repository contains a Flutter-based mobile application that serves as a mobile version of the popular online drawing and guessing game [skribbl.io](https://skribbl.io/). The app leverages `socket.io` for real-time communication and `MongoDB` for persistent data storage.
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Real-Time Drawing and Guessing:** Just like the web version, users can draw and guess in real-time.
+- **Multiplayer Support:** Play with friends or other users from around the world.
+- **Custom Game Rooms:** Create private rooms to play with specific people.
+- **Cross-Platform:** Available on both Android and iOS devices.
+- **User Authentication:** Secure login and registration using MongoDB for data persistence.
+- **Leaderboard:** Track the top players in different game rooms.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- **Flutter:** The app is built using Flutter for a beautiful and responsive user interface.
+- **Socket.IO:** Handles real-time, bidirectional communication between clients and server.
+- **Node.js:** Backend server to manage game logic and user interactions.
+- **Express.js:** Web framework for Node.js to build RESTful APIs.
+- **MongoDB:** Database to store user information, game data, and leaderboards.
+- **Firebase:** Used for authentication and cloud messaging.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Node.js and npm
+- MongoDB
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/skribbl-flutter-mobile.git
+   cd skribbl-flutter-mobile
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Set up the backend server:**
+   - Navigate to the `server` directory:
+     ```sh
+     cd server
+     ```
+   - Install server dependencies:
+     ```sh
+     npm install
+     ```
+   - Start the server:
+     ```sh
+     node server.js
+     ```
+
+4. **Run the app:**
+   ```sh
+   flutter run
+   ```
+
+### Configuration
+
+Ensure you have the correct configuration for `MongoDB` and `Socket.IO` in your `server` and `Flutter` application files. Update the `config` files with your MongoDB URI and any other necessary environment variables.
