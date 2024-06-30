@@ -36,8 +36,8 @@ This repository contains a Flutter-based mobile application that serves as a mob
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/skribbl-flutter-mobile.git
-   cd skribbl-flutter-mobile
+   git clone https://github.com/manansanghani69/skribble.io.git
+   cd skribble.io
    ```
 
 2. **Install dependencies:**
