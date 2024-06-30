@@ -12,7 +12,7 @@ var io = require("socket.io")(server);
 //middleware
 app.use(express.json());
 
-const DB = 'mongodb+srv://manansanghani123:D2puHRzFNHL30WDd@cluster0.ywdojee.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const DB = YOUR_MONGODB_URL;
 
 mongoose.connect(DB).then(()=>{
     console.log("connected successfully to MongoDB");
